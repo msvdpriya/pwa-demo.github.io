@@ -1,0 +1,143 @@
+﻿html {
+    width:100%;
+}
+nav {
+background-color: #cb202d;
+}
+nav .brand-logo {
+    padding-left:10px;
+}
+.card {
+max-height: 540px;
+height: 540px;
+}
+.card-image {
+height:72%;
+}
+.card-image img {
+width:100%;
+height:100%;
+}
+.card-title {
+    text-shadow: 2px 2px #353333;
+}
+.card-content {
+    height:20%;
+}
+.card-action {
+    height: 8%;
+}
+.active {
+    background-color:#b9000e;
+}
+.card-action div {
+    color: #cb202d;
+    cursor:pointer;
+}
+#modal1 {
+max-height: 90%;
+height: 90%;
+}
+.modal-content {
+    height:90%;
+    position:relative;
+}
+.modal-header {
+    width:100%;
+    height: 10%;
+    color: #ffa500;
+    font-weight: 600;
+    text-shadow: 0px 1px #f1d734;
+    color: #f5d734;
+}
+.modal-body {
+    height: 90%;
+}
+.left-section,.right-section {
+    height: 100%;
+}
+.contact-list-header {
+    font-weight: 600; 
+}
+.contact-list-content {
+    overflow-y: scroll;
+    height:80%;
+}
+.contact-name {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.chat-area,.share-area,.wishlist-area {
+    position:relative;
+    height: 100%;
+}
+.chat-body {
+    height: 65%;
+    width:100%;
+}
+.typing-area {
+    height: 35%;
+    bottom: 0px;
+}
+textarea {
+    height: 80%;
+}
+
+.send-message i{
+    font-size: 2em;
+    cursor:pointer;
+}
+.share-area>div:nth-child(2), .wishlist-area>div:nth-child(2) {
+    overflow-y:scroll;
+    height:70%;
+}
+.product-image img {
+    width:100%;
+    height: 100%;
+}
+.product-buttons div {
+    font-size: 0.9em;
+    font-weight: 600;
+    cursor: pointer;
+}
+.product-buttons div i {
+font-size: 1.2em;
+}
+.product-buttons {
+margin-bottom: -10px;
+}
+.product-company {
+    font-weight:500;
+    color: #3e3838;
+}
+.product-price {
+    font-size:1.2em;
+}
+.main-content .col{
+    margin: 20px 0 0 0;
+}
+.main-content>div{
+    height: 120px;
+    width: 100%;
+    padding: 40px;
+}
+.main-content .product-image {
+    height: 65%;
+}
+.main-content .product-details {
+    height: 20%;
+    margin-bottom: 0px;
+}
+.main-content .product-buttons {
+    margin-top:0px;
+    height: 10%;
+    font-size: 0.9em;
+}
+.main-content .product-buttons i{
+    font-size: 0.8em;
+}
+@media only screen and (max-width: 500px) {
+    .card {
+        height:auto;
+    }
+}
